@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.emanuel.scoreboard.fragments.HomeFragment"
+        android:label="@string/names_players"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/from_homeFragment_to_scoreFragment"
+            app:destination="@id/scoreFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/scoreFragment"
+        android:name="com.emanuel.scoreboard.fragments.ScoreFragment"
+        android:label="@string/scoreboard"
+        tools:layout="@layout/fragment_score">
+        <argument
+            android:name="namesPairA"
+            app:argType="string" />
+        <argument
+            android:name="namesPairB"
+            app:argType="string" />
+        <argument
+            android:name="pointsForSets"
+            app:argType="integer" />
+    </fragment>
+</navigation>

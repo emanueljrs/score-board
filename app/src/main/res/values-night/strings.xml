@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="scoreboard">Scoreboard</string>
+    <string name="pair_a">Pair A</string>
+    <string name="pair_b">Pair B</string>
+
+    <string name="names_players">Player Names</string>
+    <string name="start_game">Start Game</string>
+    <string name="points_for_sets">Points For Sets:</string>
+
+    <string name="sets">Sets:</string>
+    <string name="number_zero">0</string>
+    <string name="points">Points</string>
+    <string name="plus_signal">+</string>
+    <string name="minus_signal">-</string>
+    <string name="button_reset_sets">Reset Sets</string>
+    <string name="button_reset_points">Reset Points</string>
+    <string name="home_text_points_for_sets">Points for Sets</string>
+    <string name="home_value_points_for_set">Value</string>
+    <string name="message_error_field_points_for_sets">Field cannot be empty or 0(Zero)</string>
+
+</resources>

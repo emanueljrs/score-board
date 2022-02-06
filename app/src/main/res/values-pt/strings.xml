@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Placar</string>
+    <string name="scoreboard">Placar</string>
+    <string name="pair_a">Dupla A</string>
+    <string name="pair_b">Dupla B</string>
+
+    <!--  Home Fragment  -->
+    <string name="names_players">Nomes Jogadores</string>
+    <string name="insert_names_of_pairs">Insira o nome das duplas</string>
+    <string name="start_game">Iniciar Jogo</string>
+    <string name="points_for_sets">Pontos por sets:</string>
+
+    <!-- ScoreFragment  -->
+    <string name="sets">Sets:</string>
+    <string name="number_zero">0</string>
+    <string name="points">Pontos</string>
+    <string name="plus_signal">+</string>
+    <string name="minus_signal">-</string>
+    <string name="button_reset_sets">Resetar Sets</string>
+    <string name="button_reset_points">Resetar Pontos</string>
+    <string name="home_text_points_for_sets">Pontos por sets</string>
+    <string name="home_value_points_for_set">Valor</string>
+    <string name="message_error_field_points_for_sets">Campo não pode ser vazio ou 0(Zero)</string>
+
+</resources>
